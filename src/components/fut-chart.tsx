@@ -75,7 +75,7 @@ const ChartComponent: React.FC = () => {
     area.setData(baselineData);
 
     // setBaselineSeries(baseline);
-    
+    //
     const interval = setInterval(() => {
       setAreaSeriesData((prevData) => {
         const lastDataPoint = prevData[prevData.length - 1];
